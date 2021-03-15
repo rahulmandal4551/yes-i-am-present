@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="switch.css">
+  </head>
+  <body>
+    <label for="switch">Toggle the switch below to turn on / off checking name.</label>
+    <label class="switch">
+      <input id="toggleExtension" type="checkbox">
+      <span class="slider round"></span>
+    </label>
+    <div id="extraInfo">
+      <p>Please enter a valid name to turn on checking</p>
+    </div>
+    <label for="enterNameTextBox">Enter the name to check</label>
+    <input id="enterNameTextBox" type="text" minlength="1" placeholder="Enter your name" required>
+    
+    <script src = "popup.js"></script>
+    <script src="contentScript.js"></script>
+  </body>
+</html>
